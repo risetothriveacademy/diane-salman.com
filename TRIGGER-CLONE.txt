@@ -1,1 +1,0 @@
-One-time trigger for cloning the Torah Mathews production main branch into this Diane Salman repository. The clone workflow will remove this file when it replaces the working tree.
