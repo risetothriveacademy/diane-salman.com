@@ -1,3 +1,148 @@
+# Rise to Thrive / Diane Salman Ecosystem — Locked Architecture Summary
+
+> **Source-of-truth note:** This summary is intentionally placed at the top of the `diane-salman.com` README so Diane, Ava, Claude, and future developers can refer back to the agreed website architecture before making changes.
+>
+> **Important:** The technical documentation below was cloned from the original Torah Mathews site and still contains legacy Torah references. Those references are being audited separately. Do not interpret them as the current ecosystem architecture.
+
+## 1. Diane-Salman.com — Personal authority site
+
+**Domain:** `diane-salman.com`
+
+**Purpose:** The front door for **Diane Salman, MBA** as Founder, Trauma Recovery Educator, Speaker, Consultant, and Author.
+
+Primary public paths:
+- `/about`
+- `/testimony`
+- `/speaking`
+- `/consulting`
+- `/media`
+- `/book`
+- `/connect` — permanent QR / digital business-card destination
+
+This site may link outward to Rise to Thrive Hub LLC, Rise to Thrive Academy, and Transforming Pain Into Power™.
+
+### QR / Digital Business Card rule
+
+The permanent business-card QR must point to:
+
+`https://diane-salman.com/connect`
+
+It introduces **Diane Salman personally**, not Rise to Thrive Hub.
+
+## 2. RiseToThrive-Hub.com — Main organizational/public services site
+
+**Domain:** `risetothrive-hub.com`
+
+**Owner/brand:** **Rise to Thrive Hub LLC**
+
+**Purpose:** Organizational, corporate, professional, partnership, retreat, speaking/workshop, and public-service pathways.
+
+Primary public paths should include:
+- `/organizations`
+- `/retreats`
+- `/professionals`
+- `/partners`
+- `/education`
+- `/apply`
+
+### CRITICAL SEPARATION RULE
+
+**Rise to Thrive Hub is NOT the coaching-course portal.**
+
+Do not place or duplicate the Academy's learner/course infrastructure inside `risetothrive-hub.com`.
+
+The Hub may introduce or link to coaching/education programs, but actual course delivery should route to **Rise to Thrive Academy**.
+
+## 3. RiseToThrive-Academy.com — Coaching / education / course delivery
+
+**Domain:** `risetothrive-academy.com`
+
+**Purpose:** Coaching programs, educational programs, courses, curriculum, learner resources, certificates, and login/portal experiences.
+
+Examples:
+- Foundation Program
+- 18 Mini-Courses
+- coaching programs
+- advanced/mastery programs
+- learner resources
+- certificates
+- course portals and logins
+
+A subdomain is appropriate when it represents a technically separate learning portal, for example:
+
+`foundation.portal.risetothrive-academy.com`
+
+### CRITICAL SEPARATION RULE
+
+**Do not confuse Rise to Thrive Academy with Rise to Thrive Hub.**
+
+- **Hub = organizational/public/business services**
+- **Academy = coaching, education, courses, and learner delivery**
+
+Repository names can be misleading. Never classify a repository by name alone. Before changing anything, confirm:
+
+`Repository → deployed domain/site → actual purpose → brand owner`
+
+## 4. TransformingPainIntoPower.com — Recovery / ministry / nonprofit brand
+
+**Domain:** `transformingpainintopower.com`
+
+**Purpose:** Recovery resources, faith-informed/ministry work, nonprofit initiatives, community resources, and related intellectual property.
+
+May include:
+- Transforming Pain Into Power™
+- Three Spheres Recovery™
+- The Unseen Battle™
+- The Inner Voice™
+- book/resources
+- community/nonprofit work
+- devotional app
+
+For a separate application/software product, use:
+
+`app.transformingpainintopower.com`
+
+## 5. TorahMathews.com — Protected legacy site
+
+**Domain:** `torahmathews.com`
+
+**Repository:** `risetothriveacademy/torah-mathews-website`
+
+**Status:** **PROTECT — DO NOT ALTER**
+
+The original Torah Mathews site remains unchanged during the migration because `diane-salman.com` is an independent clone.
+
+Do not:
+- rename it
+- edit its public identity
+- redirect it yet
+- change its metadata
+- alter its assets
+- use it as a migration workspace
+
+Future page-by-page redirects may be considered only after `diane-salman.com` is fully approved and live.
+
+## Website architecture rule
+
+Use this rule across the ecosystem:
+
+- **Public service or department → use a `/path`**
+- **Separate software/platform/portal → use a `subdomain`**
+- **Separate major brand → use its own domain**
+
+## Repository audit classification
+
+Every repository/site should be classified before edits as one of:
+
+- **DIANE** — Diane Salman personal authority
+- **HUB** — Rise to Thrive Hub LLC organizational/public services
+- **ACADEMY** — coaching, courses, education, learner delivery
+- **TPIP** — Transforming Pain Into Power™
+- **LEGACY / PROTECT** — Torah Mathews original site or historical property
+- **UNKNOWN / DO NOT TOUCH** — not yet mapped to a live purpose/domain
+
+---
+
 # Torah Mathews Personal Website
 
 A faith-based website providing support, resources, and inspiration for trauma recovery and mental health healing through Christian principles. The site features Torah Mathews' personal testimony, speaking services, her book "Transforming Pain into Power," and comprehensive trauma recovery resources.
