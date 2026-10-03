@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Medication - Torah Mathews",
+  alternates: { canonical: "/medication" },
+  title: "Medication - Diane Salman MBA",
   description: "Understanding medication as part of trauma recovery and mental health healing.",
 };
 

@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import { RetreatApplicationForm } from "@/components/retreat-application-form";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/professional-retreat" },
+};
 
 export default function ProfessionalRetreatPage() {
   return (

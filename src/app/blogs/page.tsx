@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Articles & Resources - Torah Mathews",
+  alternates: { canonical: "/blogs" },
+  title: "Articles & Resources - Diane Salman MBA",
   description: "Faith-based trauma education, emotional healing, and mental wellness insights.",
 };
 

@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Legacy Members - Torah Mathews",
+  alternates: { canonical: "/legacy-member" },
+  title: "Legacy Members - Diane Salman MBA",
   description: "Honoring those who supported the Transforming Pain into Power movement from the beginning.",
 };
 

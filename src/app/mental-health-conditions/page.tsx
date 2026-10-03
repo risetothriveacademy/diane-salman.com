@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mental Health Conditions - Torah Mathews",
+  alternates: { canonical: "/mental-health-conditions" },
+  title: "Mental Health Conditions - Diane Salman MBA",
   description: "Understanding mental health conditions related to trauma, anxiety, depression, and PTSD",
 };
 

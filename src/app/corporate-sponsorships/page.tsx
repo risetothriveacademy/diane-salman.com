@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporate Sponsorships - Torah Mathews",
+  alternates: { canonical: "/corporate-sponsorships" },
+  title: "Corporate Sponsorships - Diane Salman MBA",
   description: "Partner with Transforming Pain into Power to support trauma recovery and faith-based mental wellness.",
 };
 

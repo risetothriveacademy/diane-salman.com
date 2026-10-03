@@ -5,9 +5,10 @@ import { ScrollingBanner } from "@/components/ScrollingBanner";
 import { SectionBanner } from "@/components/SectionBanner";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/book" },
   title: "Transforming Pain into Power – The Book",
   description:
-    "Discover Transforming Pain into Power by Torah Mathews—a faith-based testimony and roadmap for those facing trauma, mental distress, and emotional collapse.",
+    "Discover Transforming Pain into Power by Diane Salman MBA—a faith-based testimony and roadmap for those facing trauma, mental distress, and emotional collapse.",
 };
 
 export default function BookPage() {
@@ -25,7 +26,7 @@ export default function BookPage() {
             </h1>
             <p className="mt-4 text-base leading-relaxed text-slate-700">
               <span className="font-semibold">Transforming Pain into Power</span>{" "}
-              is Torah Mathews&apos; personal testimony and a faith-based guide
+              is Diane Salman MBA&apos;s personal testimony and a faith-based guide
               for those walking through trauma-induced mental distress. It is
               written for individuals who have lost much, questioned God, and
               wondered if restoration is still possible.
@@ -131,7 +132,7 @@ export default function BookPage() {
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
-            <p>Within these pages, Torah shares:</p>
+            <p>Within these pages, Diane shares:</p>
             <ul className="space-y-2 list-disc list-inside">
               <li>Her journey from early trauma to high achievement.</li>
               <li>
