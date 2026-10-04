@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/recovery-methods" },
   title: "Recovery Methods That Support Healing",
   description: "A trauma-informed overview of medication, therapy, and faith-based healing approaches.",
 };

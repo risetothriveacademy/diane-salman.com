@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About the Author - Torah Mathews",
+  alternates: { canonical: "/author" },
+  title: "About the Author - Diane Salman MBA",
   description: "The testimony behind Transforming Pain into Power.",
 };
 
@@ -22,10 +23,10 @@ export default function AuthorPage() {
           <h2 className="text-3xl font-bold text-[#b18c57] mb-6">Short Bio</h2>
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
             <p>
-              Torah Mathews is an author, speaker, and trauma-recovery advocate whose life was radically transformed by God's healing power.
+              Diane Salman MBA is an author, speaker, and trauma-recovery advocate whose life was radically transformed by God's healing power.
             </p>
             <p>
-              After walking through childhood instability, emotional collapse, betrayal, financial devastation, and spiritual warfare — Torah encountered God in a way that restored her identity and rebuilt her life from the ground up.
+              After walking through childhood instability, emotional collapse, betrayal, financial devastation, and spiritual warfare — Diane encountered God in a way that restored her identity and rebuilt her life from the ground up.
             </p>
             <p>
               Her mission is to help others break trauma cycles, rebuild identity, and discover God's healing power.

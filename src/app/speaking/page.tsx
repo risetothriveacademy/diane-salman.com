@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Book Torah Mathews to Speak",
+  alternates: { canonical: "/speaking" },
+  title: "Book Diane Salman MBA to Speak",
   description: "Trauma-informed, faith-centered, Spirit-led teaching that brings emotional and spiritual transformation.",
 };
 
@@ -28,9 +29,9 @@ export default function SpeakingPage() {
           </div>
         </div>
 
-        {/* Who Torah Speaks To */}
+        {/* Who Diane Speaks To */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Who Torah Speaks To</h2>
+          <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Who Diane Speaks To</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-4 text-[#209bab]">A. Churches & Ministries</h3>
@@ -59,7 +60,7 @@ export default function SpeakingPage() {
 
         
               <p className="text-gray-700 mb-6 text-lg">
-  Torah Mathews speaks from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration. Her message brings hope for trauma recovery that many people feel no one talks about — integrating emotional healing, faith-centered restoration, and resilience-building principles for individuals, organizations, churches, and corporate communities.
+  Diane Salman MBA speaks from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration. Her message brings hope for trauma recovery that many people feel no one talks about — integrating emotional healing, faith-centered restoration, and resilience-building principles for individuals, organizations, churches, and corporate communities.
 </p>
 
             <div className="space-y-4">
@@ -80,7 +81,7 @@ export default function SpeakingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3 text-[#209bab]">1. Transforming Pain into Power</h3>
               <p className="text-gray-700">
-                Torah's testimony — powerful, emotional, transformative.
+                Diane's testimony — powerful, emotional, transformative.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -98,10 +99,10 @@ export default function SpeakingPage() {
           </div>
         </section>
 
-        {/* Why Event Organizers Love Working With Torah */}
+        {/* Why Event Organizers Love Working With Diane */}
         <section className="mb-16 bg-white rounded-lg p-8 shadow-md">
           <h2 className="text-3xl font-bold text-[#b18c57] mb-6 text-center">
-            Why Event Organizers Love Working With Torah
+            Why Event Organizers Love Working With Diane
           </h2>
           <ul className="space-y-3 text-gray-700 text-lg max-w-2xl mx-auto">
             <li className="flex items-start">
@@ -136,7 +137,7 @@ export default function SpeakingPage() {
 </p>
 
 <p className="text-slate-700 leading-relaxed text-lg">
-  Torah Mathews is an author and trauma-recovery advocate whose testimony of God’s healing has helped countless individuals reclaim identity, emotional stability, and purpose.
+  Diane Salman MBA is an author and trauma-recovery advocate whose testimony of God’s healing has helped countless individuals reclaim identity, emotional stability, and purpose.
 </p>
       
 {/* Featured Speaker Bio */}
@@ -148,11 +149,11 @@ export default function SpeakingPage() {
     </h2>
 
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      Torah Mathews is a faith-based trauma recovery speaker, author, and advocate known for delivering powerful messages of hope, emotional restoration, and transformational healing through lived experience.
+      Diane Salman MBA is a faith-based trauma recovery speaker, author, and advocate known for delivering powerful messages of hope, emotional restoration, and transformational healing through lived experience.
     </p>
 
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      Drawing from her personal journey through trauma, grief, emotional distress, and recovery, Torah speaks with rare authenticity and compassion — helping audiences understand the hidden emotional battles that often remain unseen behind anxiety, burnout, fear, rejection, and hopelessness.
+      Drawing from her personal journey through trauma, grief, emotional distress, and recovery, Diane speaks with rare authenticity and compassion — helping audiences understand the hidden emotional battles that often remain unseen behind anxiety, burnout, fear, rejection, and hopelessness.
     </p>
 
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
@@ -160,7 +161,7 @@ export default function SpeakingPage() {
     </p>
 
     <p className="text-gray-700 text-lg leading-relaxed">
-      Torah speaks at churches, conferences, wellness events, leadership gatherings, recovery communities, and corporate wellness initiatives — equipping audiences with insight, encouragement, and practical tools for healing, resilience, and transformation.
+      Diane speaks at churches, conferences, wellness events, leadership gatherings, recovery communities, and corporate wellness initiatives — equipping audiences with insight, encouragement, and practical tools for healing, resilience, and transformation.
     </p>
 
   </div>
@@ -186,7 +187,7 @@ export default function SpeakingPage() {
 
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-[#209bab] to-[#b18c57] text-white rounded-lg p-12">
-          <h2 className="text-3xl font-bold mb-4">Invite Torah to Your Event</h2>
+          <h2 className="text-3xl font-bold mb-4">Invite Diane to Your Event</h2>
           <p className="text-xl mb-6">Transform your audience with a message of hope and restoration</p>
           <a href="mailto:admin@torahmathews.com?subject=Speaking Engagement Request">
             <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-100">

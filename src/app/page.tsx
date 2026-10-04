@@ -5,8 +5,9 @@ import { ScrollingBanner } from "@/components/ScrollingBanner";
 import { TVShowBanner } from "@/components/TVShowBanner";
 
 export const metadata: Metadata = {
-  title: "Torah Mathews - Transforming Pain into Power",
-  description: "A journey of healing, identity, and faith. Torah Mathews is an author, speaker, and trauma recovery advocate whose testimony is transforming lives.",
+  alternates: { canonical: "/" },
+  title: "Diane Salman MBA - Transforming Pain into Power",
+  description: "A journey of healing, identity, and faith. Diane Salman MBA is an author, speaker, and trauma recovery advocate whose testimony is transforming lives.",
 };
 
 export default function HomePage() {
@@ -25,7 +26,7 @@ export default function HomePage() {
             Transforming Pain into Power
           </h2>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            A journey of healing, identity, and faith. Torah Mathews is an author, speaker, and trauma recovery advocate whose testimony is transforming lives.
+            A journey of healing, identity, and faith. Diane Salman MBA is an author, speaker, and trauma recovery advocate whose testimony is transforming lives.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/book">
@@ -41,7 +42,7 @@ export default function HomePage() {
                 size="lg"
                 className="bg-[#209bab] text-white hover:bg-[#1a7a86] font-semibold px-8 py-6 text-base"
               >
-                Book Torah to Speak
+                Book Diane to Speak
               </Button>
             </Link>
             <Link href="/trauma-mental-health">
@@ -62,15 +63,15 @@ export default function HomePage() {
       {/* Scrolling Banner */}
       <ScrollingBanner text="A Legacy in Honour of Jesus Christ — Together We Rise Against Pain, Grief, Depression, Anxiety, Abuse & Poverty." />
 
-      {/* Meet Torah Mathews Section */}
+      {/* Meet Diane Salman MBA Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-4xl font-bold text-[#b18c57] mb-8 text-center">
-            Meet Torah Mathews
+            Meet Diane Salman MBA
           </h2>
           <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
             <p>
-              Torah Mathews survived childhood wounds, heartbreak, betrayal, financial devastation, and overwhelming spiritual warfare — and encountered God in a way that transformed everything.
+              Diane Salman MBA survived childhood wounds, heartbreak, betrayal, financial devastation, and overwhelming spiritual warfare — and encountered God in a way that transformed everything.
             </p>
             <div className="bg-[#209bab]/10 p-6 rounded-lg border-l-4 border-[#209bab]">
               <p className="font-semibold text-xl text-gray-900 mb-2">Her message is simple:</p>
@@ -90,7 +91,7 @@ export default function HomePage() {
             Transforming Pain into Power (The Book)
           </h2>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Discover Torah's full testimony in <span className="font-semibold">Transforming Pain into Power</span> — a raw and powerful story of trauma, faith, and God's restoration.
+            Discover Diane's full testimony in <span className="font-semibold">Transforming Pain into Power</span> — a raw and powerful story of trauma, faith, and God's restoration.
           </p>
           <Link href="/book">
             <Button
@@ -110,7 +111,7 @@ export default function HomePage() {
             Speaking & Keynotes
           </h2>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Invite Torah to bring trauma-informed, faith-based emotional healing to your church, conference, or organization.
+            Invite Diane to bring trauma-informed, faith-based emotional healing to your church, conference, or organization.
           </p>
           <Link href="/speaking">
             <Button

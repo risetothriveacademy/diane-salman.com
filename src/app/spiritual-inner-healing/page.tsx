@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Spiritual Inner Healing - Torah Mathews",
+  alternates: { canonical: "/spiritual-inner-healing" },
+  title: "Spiritual Inner Healing - Diane Salman MBA",
   description: "Understanding spiritual inner healing as part of trauma recovery and faith-based restoration.",
 };
 

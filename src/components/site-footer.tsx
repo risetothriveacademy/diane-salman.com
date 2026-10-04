@@ -41,7 +41,7 @@ export function SiteFooter() {
             </div>
 
             <p className="text-slate-400 text-sm">
-              © {new Date().getFullYear()} Torah Mathews. All rights reserved.
+              © {new Date().getFullYear()} Diane Salman MBA. All rights reserved.
             </p>
 
             <p className="text-slate-500 text-xs">

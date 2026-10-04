@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/trauma-and-mental-health" },
   title: "Trauma, Mental Health & Faith",
   description: "Understanding the emotional, physical, and spiritual impact of trauma — and how healing begins.",
 };

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { ScrollingBanner } from "@/components/ScrollingBanner";
 
 export const metadata: Metadata = {
-  title: "About Torah Mathews",
+  alternates: { canonical: "/about" },
+  title: "About Diane Salman MBA",
   description:
     "A story of trauma, redemption, and God's transforming power.",
 };
@@ -14,7 +15,7 @@ export default function AboutPage() {
         {/* Hero */}
         <header className="mb-12">
           <p className="text-sm font-semibold tracking-wide text-teal-700 uppercase">
-            About Torah Mathews
+            About Diane Salman MBA
           </p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
             A story of trauma, redemption, and God's transforming power.
@@ -32,7 +33,7 @@ export default function AboutPage() {
             Who I Am
           </h2>
           <p className="text-slate-700 leading-relaxed">
-            My name is Torah Mathews, and my story is not one of perfection — it is one of redemption.
+            My name is Diane Salman MBA, and my story is not one of perfection — it is one of redemption.
             I grew up in an environment marked by instability, emotional unpredictability, and silent wounds.
             I learned to survive by staying strong and quiet — long before I ever learned how to heal.
           </p>
@@ -175,7 +176,7 @@ export default function AboutPage() {
           <div className="flex justify-center my-8">
             <img
               src="/vip-cast-member.jpg"
-              alt="Torah Mathews - VIP Cast Member, Legacy Makers"
+              alt="Diane Salman MBA - VIP Cast Member, Legacy Makers"
               className="rounded-xl shadow-2xl max-w-2xl w-full"
             />
           </div>

@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "For Churches - Torah Mathews",
+  alternates: { canonical: "/church" },
+  title: "For Churches - Diane Salman MBA",
   description: "Trauma-informed ministry guidance for churches supporting members in emotional distress.",
 };
 

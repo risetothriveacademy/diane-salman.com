@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "For Family Members - Torah Mathews",
+  alternates: { canonical: "/family-members" },
+  title: "For Family Members - Diane Salman MBA",
   description: "Guidance for family members supporting loved ones through trauma recovery.",
 };
 

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/non-clinicians" },
   title: "Supporting Someone in Trauma",
   description: "Practical guidance for family, friends, pastors, and support groups caring for someone in emotional distress.",
 };

@@ -66,7 +66,7 @@ export function SiteHeader() {
         <div className="text-center mb-6">
           <Link href="/" className="inline-block">
             <h1 className="text-4xl md:text-5xl font-bold tracking-wider text-gray-900">
-              TORAH MATHEWS
+              DIANE SALMAN <span className="text-2xl md:text-3xl">MBA</span>
             </h1>
           </Link>
         </div>
