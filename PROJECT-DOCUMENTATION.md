@@ -91,14 +91,14 @@ Faith-based website for Torah Mathews, MBA - author, speaker, and trauma recover
 
 9. **Legacy Section**
    - Background: Gold (#b18c57)
-   - Image: `/legacy-makers.jpg` or `/vip-cast-member.jpg`
+   - Image: `/diane-salman-vip-cast-member.jpg`
    - Highlighted quote
    - CTA: "Join the Legacy" → `/legacy-member`
 
 **Images Used:**
 - `/book-cover.jpg` (Hero)
-- `/vip-cast-member.jpg` (TV Banner)
-- `/legacy-makers.jpg` or `/vip-cast-member.jpg` (Legacy section)
+- `/diane-salman-vip-cast-member.jpg` (TV Banner)
+- `/diane-salman-vip-cast-member.jpg` (Legacy section)
 
 **Components Used:**
 - `<ScrollingBanner />`
@@ -222,7 +222,7 @@ Faith-based website for Torah Mathews, MBA - author, speaker, and trauma recover
 - Legacy Makers program information
 - How to join
 - Benefits and mission
-- Image: `/legacy-makers.jpg` or `/vip-cast-member.jpg`
+- Image: `/diane-salman-vip-cast-member.jpg`
 
 ---
 
@@ -449,7 +449,7 @@ BLOGS
 - CTA button or text
 
 **Image Used:**
-- `/vip-cast-member.jpg`
+- `/diane-salman-vip-cast-member.jpg`
 
 ---
 
@@ -538,8 +538,8 @@ interface HubSpotFormProps {
 
 ### **Homepage (`/`)**
 - `/book-cover.jpg` - Hero section (left half)
-- `/vip-cast-member.jpg` - TV Show Banner
-- `/legacy-makers.jpg` or `/vip-cast-member.jpg` - Legacy section background
+- `/diane-salman-vip-cast-member.jpg` - TV Show Banner
+- `/diane-salman-vip-cast-member.jpg` - Legacy section background
 
 ### **Book Page (`/book`)**
 - `/book-cover.jpg` - Hero section
@@ -550,8 +550,8 @@ interface HubSpotFormProps {
 - `/torah-mathews-quote.jpg` - Alternative photo
 
 ### **Legacy Member Page (`/legacy-member`)**
-- `/legacy-makers.jpg` - Main image
-- `/vip-cast-member.jpg` - Alternative
+- `/diane-salman-vip-cast-member.jpg` - Main image
+- `/diane-salman-vip-cast-member.jpg` - Alternative
 
 ### **Unused Images (Available)**
 - `/book-cover-alt-1.jpg` through `/book-cover-alt-4.jpg` - Alternative book covers
