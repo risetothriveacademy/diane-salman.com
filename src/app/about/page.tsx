@@ -176,7 +176,7 @@ export default function AboutPage() {
           <div className="flex justify-center my-8">
             <img
               src="/vip-cast-member.jpg"
-              alt="Diane Salman MBA - VIP Cast Member, Legacy Makers"
+              alt="Diane Salman featured on a VIP cast member welcome display"
               className="rounded-xl shadow-2xl max-w-2xl w-full"
             />
           </div>
