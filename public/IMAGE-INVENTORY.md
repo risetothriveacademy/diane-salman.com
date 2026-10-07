@@ -34,10 +34,10 @@ All images are located in `/public/` and can be referenced in the app as `/image
 - **Note:** This is the iconic sitting-on-white-ladder photo matching the original torahmathews.com design
 
 ### **5. Legacy Makers**
-- **File:** `legacy-makers.jpg` (228 KB)
+- **File:** `diane-salman-vip-cast-member.jpg` (323 KB)
 - **Original:** `legacy_makers_.jpg`
 - **Usage:** Legacy Member page, About section
-- **Reference:** `/legacy-makers.jpg`
+- **Reference:** `/diane-salman-vip-cast-member.jpg`
 
 ---
 
@@ -74,7 +74,7 @@ All images are located in `/public/` and can be referenced in the app as `/image
 - Speaker photo: `/torah-mathews-author.jpg`
 
 ### **Legacy Member Page (`/legacy-member`)**
-- Main image: `/legacy-makers.jpg`
+- Main image: `/diane-salman-vip-cast-member.jpg`
 
 ---
 

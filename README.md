@@ -261,8 +261,7 @@ torah-mathews-website/
 │   ├── torah-logo.jpg                # Site logo
 │   ├── torah-mathews-author.jpg      # Author headshot (blue dress)
 │   ├── torah-mathews-quote.jpg       # Sitting on ladder photo
-│   ├── legacy-makers.jpg             # Legacy Makers image
-│   ├── vip-cast-member.jpg           # VIP Cast Member badge
+│   ├── diane-salman-vip-cast-member.jpg  # VIP Cast Member welcome display (Diane Salman)
 │   ├── jigsaw-puzzle.png             # Metaphor graphic
 │   └── IMAGE-INVENTORY.md            # Complete image documentation
 ├── netlify.toml                      # Netlify configuration
@@ -358,8 +357,7 @@ See `public/IMAGE-INVENTORY.md` for complete image documentation.
 2. **Book Cover** - `book-cover.jpg` (133 KB)
 3. **Author Photo** - `torah-mathews-author.jpg` (183 KB) - Blue dress headshot
 4. **Ladder Photo** - `torah-mathews-quote.jpg` (172 KB) - Sitting on white ladder
-5. **Legacy Makers** - `legacy-makers.jpg` (228 KB)
-6. **VIP Cast Member** - `vip-cast-member.jpg` (233 KB) - Recently added
+5. **VIP Cast Member** - `diane-salman-vip-cast-member.jpg` (323 KB) - TV welcome display reading "Welcome Diane Salman"
 
 ### Book Cover Variations
 - `book-cover-alt-1.jpg` through `book-cover-alt-4.jpg`
