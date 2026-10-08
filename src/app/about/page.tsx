@@ -27,6 +27,57 @@ export default function AboutPage() {
           <ScrollingBanner text="A Legacy in Honour of Jesus Christ — Together We Rise Against Pain, Grief, Depression, Anxiety, Abuse & Poverty." />
         </div>
 
+        {/* Founder Video Bio */}
+        <section className="mb-14 overflow-hidden rounded-3xl border border-amber-400/30 bg-slate-950 text-white shadow-2xl">
+          <div className="grid items-stretch lg:grid-cols-2">
+            <div className="relative bg-slate-900 p-4 sm:p-6 lg:p-8">
+              <div className="overflow-hidden rounded-2xl border border-teal-400/30 bg-black shadow-xl">
+                <video
+                  className="aspect-video w-full bg-black object-cover"
+                  controls
+                  preload="metadata"
+                  playsInline
+                  poster="/images/diane-salman-founder-video-poster.svg"
+                  aria-label="Founder message from Diane Salman MBA"
+                >
+                  <source src="/videos/diane-salman-founder-bio.mp4" type="video/mp4" />
+                  Your browser does not support the video element.
+                </video>
+              </div>
+              <p className="mt-3 text-center text-xs tracking-wide text-slate-400">
+                Founder Message — Diane Salman, MBA
+              </p>
+            </div>
+
+            <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12">
+              <p className="text-sm font-bold uppercase tracking-[0.22em] text-teal-300">
+                A Message From the Founder
+              </p>
+              <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl">
+                What You Discover Beneath the Surface Could Change the Direction of Your Life.
+              </h2>
+              <p className="mt-5 leading-relaxed text-slate-300">
+                Sometimes the struggle you can see is only part of the story. Understanding what is happening beneath fear, grief, anxiety, discouragement, shame, exhaustion, or feeling stuck can become the beginning of meaningful change.
+              </p>
+
+              <div className="mt-7 border-l-4 border-amber-400 pl-5">
+                <p className="text-xl font-bold text-white">Diane Salman, MBA</p>
+                <p className="mt-1 font-semibold text-amber-300">Founder, Rise to Thrive Hub LLC</p>
+                <p className="text-slate-300">Founder, Transforming Pain Into Power™</p>
+                <p className="mt-3 text-sm leading-relaxed text-slate-300">
+                  Trauma Recovery Educator • Speaker • Author • Consultant
+                  <br />
+                  Corporate &amp; Organizational Resilience • Personal Restoration
+                </p>
+              </div>
+
+              <blockquote className="mt-7 text-lg italic leading-relaxed text-slate-200">
+                “My purpose is to help individuals move from pain into transformation, from emotional overwhelm into clarity, and from brokenness toward restoration—so they can rebuild stronger, live intentionally, and walk confidently in the purpose God has designed for their lives.”
+              </blockquote>
+            </div>
+          </div>
+        </section>
+
         {/* Who I Am */}
         <section className="space-y-6 mb-12">
           <h2 className="text-2xl font-semibold text-slate-900">
